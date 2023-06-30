@@ -1,9 +1,16 @@
 version: 2
 updates:
-- package-ecosystem: pnpm
-  directory: "/"
+- package-ecosystem: npm
+  directory: "/project-a"
   schedule:
     interval: daily
-    time: "16:30"
+    time: "17:15"
     timezone: "America/New_York"
   versioning-strategy: auto
+- package-ecosystem: npm
+  directory: "/project-b"
+  schedule:
+    interval: daily
+    time: "17:15"
+    timezone: "America/New_York"
+  versioning-strategy: auto  
