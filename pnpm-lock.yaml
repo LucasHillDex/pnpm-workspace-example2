@@ -15,7 +15,7 @@ importers:
   project-b:
     dependencies:
       core-js:
-        specifier: 3.27.0
+        specifier: ^3.27.0
         version: 3.27.0
 
 packages:
